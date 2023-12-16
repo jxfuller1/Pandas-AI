@@ -9,3 +9,5 @@ Agent feature in pandasai and Googles Palm2 AI (which is free).  Just add your o
 Take note that the AI calls and reading the excel to a dataframe are offloaded to a QThread to a keep the UI responsive
 as the AI does it's thing.  Therefore, I have to pass the pandasai agent back and forth between the main thread and Qthread.
 I put a number of try statements in, especially around the AI function calls for any issues that may arise.
+
+Any dataframes that are returned by the AI will be shown in a table in the blank box above the AI response box.
