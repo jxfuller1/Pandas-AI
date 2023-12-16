@@ -11,3 +11,6 @@ as the AI does it's thing.  Therefore, I have to pass the pandasai agent back an
 I put a number of try statements in, especially around the AI function calls for any issues that may arise.
 
 Any dataframes that are returned by the AI will be shown in a table in the blank box above the AI response box.
+
+![image](https://github.com/jxfuller1/Pandas-AI/assets/123666150/488250db-e413-4e40-8bd8-b212ca9a407e)
+
